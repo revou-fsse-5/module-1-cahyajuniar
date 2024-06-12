@@ -4,24 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Movie Fiesat is a website to fulfil RevoU assignment module-1">
+    <meta name="description" content="Movie Fiesta is a website to fulfil RevoU assignment module-1">
     <meta name="author" content="Cahya Juniar">
     <title>Movie Fiesta</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bevan font from Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="header-left-session">
-            <h2 class="web-title">Movie Fiesta</h2>
+            <h1 class="web-title">Movie Fiesta</h1>
         </div>
         <div class="header-right-session">
             <nav class="header-navigation">
                 <ul>
-                    <li class="nav-home-container"><a href="/" class="nav-home">Home</a></li>
-                    <li class="nav-movies-container"><a href="#" class="nav-movies">Movies</a></li>
-                    <li class="nav-tv-shows-container"><a href="#" class="nav-tv-shows">TV Shows</a></li>
-                    <li class="nav-wathclist-container"><a href="#" class="nav-watchlists">Watchlists</a></li>
-                    <li class="nav-signup-container"><a href="#" class="nav-signup">Sign Up</a></li>
+                    <li class="nav-home-container">
+                        <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                        <a href="/" class="nav-home">Home</a>
+                    </li>
+                    <li class="nav-movies-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM48 368v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H416zM48 240v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H416zM48 112v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H416zM160 128v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V320c0-17.7-14.3-32-32-32H192z"/></svg>
+                        <a href="#" class="nav-movies">Movies</a>
+                    </li>
+                    <li class="nav-tv-shows-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 64V352H576V64H64zM0 64C0 28.7 28.7 0 64 0H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM128 448H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+                        <a href="#" class="nav-tv-shows">TV Shows</a>
+                    </li>
+                    <li class="nav-wathclist-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
+                        <a href="#" class="nav-watchlists">Watchlists</a>
+                    </li>
+                    <li class="nav-signup-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                        <a href="#" class="nav-signup">Sign Up</a>
+                    </li>
                 </ul>
             </nav>
             <div class="search-nav">
@@ -35,7 +58,7 @@
     <main>
         <article class="hero-element">
             <div class="hero-left-conteiner">
-                <h1 class="hero-text-title">Discovering Your Desire Movies</h1>
+                <p class="hero-text-title">Discovering Your Desire Movies</p>
                 <p class="hero-text-desc">From iconic classics to hidden gems, find the perfect movie for every mood and
                     moment. Start your cinematic journey now.</p>
             </div>
@@ -51,7 +74,7 @@
             <section class="in-theater-container">
                 <div class="in-theater-header">
                     <div class="in-theater-header-left">
-                        <h3>In<span style="color: #C73659;">Theaters</span></h3>
+                        <h2>In<span style="color: #C73659;">Theaters</span></h2>
                     </div>
                     <div class="in-theater-header-right">
                         <a href="#" class="see-all-text">See all</a>
@@ -63,7 +86,7 @@
                             src="https://media.21cineplex.com/webcontent/gallery/pictures/171706414775783_290x426.jpg"
                             alt="Inside Out 2 Poster" style="width: 100px;">
                         <div class="item-text-content">
-                            <h4 class="item-title">Inside Out 2</h4>
+                            <h3 class="item-title">Inside Out 2</h3>
                             <div class="rating-container" style="display: flex;">
                                 <svg style="width: 10px;" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -74,7 +97,11 @@
                             </div>
                         </div>
                         <div class="add-watchlist-container" style="display: flex;">
-                            <svg style="width: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
+                            <svg style="width: 10px;" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                            </svg>
                             <p class="add-watchlist-text">Watchlists</p>
                         </div>
                     </div>
@@ -83,7 +110,7 @@
                             src="https://media.21cineplex.com/webcontent/gallery/pictures/171697791215350_290x426.jpg"
                             alt="Bad Boys: Ride or Die poster" style="width: 100px;">
                         <div class="item-text-content">
-                            <h4 class="item-title">Bad Boys: Ride or Die</h4>
+                            <h3 class="item-title">Bad Boys: Ride or Die</h3>
                             <div class="rating-container" style="display: flex;">
                                 <svg style="width: 10px;" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -94,7 +121,11 @@
                             </div>
                         </div>
                         <div class="add-watchlist-container" style="display: flex;">
-                            <svg style="width: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
+                            <svg style="width: 10px;" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                            </svg>
                             <p class="add-watchlist-text">Watchlists</p>
                         </div>
                     </div>
@@ -145,7 +176,8 @@
                     </fieldset>
                     <fieldset class="form-checkbox-policy" style="border: none;">
                         <input type="checkbox">
-                        <label for="checkPolicy">I agree with Terms of Service, Privacy Policy, and default Notification Settings.</label>
+                        <label for="checkPolicy">I agree with Terms of Service, Privacy Policy, and default Notification
+                            Settings.</label>
                     </fieldset>
                     <button type="submit">Sign Up</button>
                 </form>

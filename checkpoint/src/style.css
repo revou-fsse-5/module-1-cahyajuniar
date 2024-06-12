@@ -1,0 +1,27 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bevan', sans-serif;
+    background-color: #FCF4E7;
+}
+
+header {
+    display: flex;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-home-container {
+    display: flex;
+
+}
