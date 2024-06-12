@@ -107,6 +107,47 @@
             <a href="#">X</a>
         </div>
     </footer>
+    <dialog class="modal-signup-form" open>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 class="signup-text">Sign Up</h3>
+                <!--For X icon latter-->
+            </div>
+            <div class="modal-body">
+                <form class="signup-form">
+                    <fieldset class="form-name" style="border: none;">
+                        <label for="inputName" class="label-name">Full Name</label><br>
+                        <input type="text" name="inputName" id="inputName" required>
+                    </fieldset>
+                    <fieldset class="form-email" style="border: none;">
+                        <label for="inputEmail" class="label-email">Email</label><br>
+                        <input type="email" name="inputEmail" id="inputEmail" required>
+                    </fieldset>
+                    <fieldset class="form-password" style="border: none;">
+                        <label for="inputPassword" class="label-password">Password</label><br>
+                        <input type="password" name="inputPassword" id="inputPassword" required>
+                    </fieldset>
+                    <fieldset class="form-gender" style="border: none;">
+                        <label for="selectGender">Gender</label>
+                        <select name="selectGender" id="selectGender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="prefer-not-to-say">Prefer not to say</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="form-address" style="border: none;">
+                        <label for="inputAddress">Address</label><br>
+                        <textarea name="inputAddress" id="inputAddress" rows="4"></textarea>
+                    </fieldset>
+                    <fieldset class="form-checkbox-policy" style="border: none;">
+                        <input type="checkbox">
+                        <label for="checkPolicy">I agree with Terms of Service, Privacy Policy, and default Notification Settings.</label>
+                    </fieldset>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
 </body>
 
 </html>
