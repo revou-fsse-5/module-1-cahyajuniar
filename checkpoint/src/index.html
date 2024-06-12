@@ -40,7 +40,11 @@
                     moment. Start your cinematic journey now.</p>
             </div>
             <div class="hero-right-container">
-                <img src="../assets/hero-element.png" alt="Hero image" style="width: 200px;">
+                <picture class="hero-img">
+                    <source media="(max-width: 393px)" srcset="../assets/hero-element-medium.png">
+                    <source media="(min-width: 843px)" srcset="../assets/hero-element-large.png">
+                    <img src="../assets/hero-element-medium.png" alt="Hero image" style="width: 200px;">
+                </picture>
             </div>
         </article>
         <article class="main-content">
