@@ -33,6 +33,12 @@ Here are features on **Movie Fiesta** :
 - **Top 10 This Week**: In this section you can see top 10 popular movies based on views.
 - **Most Popular Celebrities**: In this section you can see popular celebrities at the moment.
 
+# Future Changes :
+
+- [ ] Style index.html with CSS.
+- [ ] Put more movie list to main content.
+- [ ] Make sign up form become modal when sign up link just clicked.
+- [ ] Deploy project to Netlify.
 <h2 align="center">Enjoy your movies</h2>
 
 ![Hero Image](./checkpoint//assets/hero-for-readme.png)
