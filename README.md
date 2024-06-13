@@ -14,7 +14,7 @@
 
 # Introduction
 
-Hello from Cahya, here is my website for assigment module 1. You can't see preview of the website because i haven't style the HTML.
+Hello from Cahya, here is my website for assigment module 1. You can't see preview of the website because i haven't yet style the HTML.
 
 
 **Movie Fiesta** is a web that contain alot information about movies. In this website you can see what films are on going in theaters, Top 10 Movies of the week and popular celebrities.
