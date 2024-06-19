@@ -111,16 +111,19 @@ header .search-nav .search-form .btn-find {
 }
 
 .hero-element {
+  position: relative;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid black;
+  z-index: -1;
 }
 
 .hero-element .hero-left-container {
   display: flex;
   flex-direction: column;
+  z-index: 3;
 }
 
 .hero-element .hero-left-container .hero-text-title {
@@ -132,11 +135,86 @@ header .search-nav .search-form .btn-find {
   margin: 0;
 }
 
+.hero-element .hero-right-container {
+  z-index: 3;
+}
+
 .hero-element .hero-right-container .hero-img {
   width: 100%;
   height: auto;
   object-fit: cover;
   object-position: center center;
+}
+
+.hero-element .circle-1 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #F17B97;
+
+  animation: circleBeat;
+  animation-delay: 1s;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.hero-element  .circle-2 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #F5C518;
+
+  animation: circleBeat;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.hero-element  .circle-3 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #C73659;
+
+  animation: circleBeat;
+  animation-delay: 2s;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+.hero-element  .circle-4 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #464646;
+
+  animation: circleBeat;
+  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.hero-element  .circle-5 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #6BC9F2;
+
+  animation: circleBeat;
+  animation-delay: 3s;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes circleBeat {
+  0% {transform: scale(0);}
+  100% {transform: scale(1);}
 }
 
 .in-theater-container .in-theater-header {
@@ -588,6 +666,41 @@ footer .social-media-container a {
     height: 142px;
   }
 
+  .hero-element .circle-1 { 
+    top: 60%;
+    left: 1%;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .hero-element  .circle-2 {
+    top: 10%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .hero-element  .circle-3 {
+    top: 20%;
+    left: 57%;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .hero-element  .circle-4 {
+    top: 70%;
+    left: 55%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .hero-element  .circle-5 {
+    top: 5%;
+    left: 90%;
+    width: 16px;
+    height: 16px;
+  }
+
   .main-content {
     padding: 10px 20px;
   }
@@ -856,6 +969,41 @@ footer .social-media-container a {
     height: 232px;
   }
 
+  .hero-element .circle-1 { 
+    top: 60%;
+    left: 2%;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .hero-element  .circle-2 {
+    top: 10%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .hero-element  .circle-3 {
+    top: 20%;
+    left: 57%;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .hero-element  .circle-4 {
+    top: 72%;
+    left: 63%;
+    width: 60px;
+    height: 60px;
+  }
+
+  .hero-element  .circle-5 {
+    top: 5%;
+    left: 90%;
+    width: 16px;
+    height: 16px;
+  }
+
   .main-content {
     padding: 20px 60px;
   }
@@ -1097,6 +1245,41 @@ footer .social-media-container a {
     .hero-element .hero-right-container {
       width: 308px;
       height: 314px;
+    }
+
+    .hero-element .circle-1 { 
+      top: 65%;
+      left: 2%;
+      width: 110px;
+      height: 110px;
+    }
+    
+    .hero-element  .circle-2 {
+      top: 10%;
+      left: 50%;
+      width: 24px;
+      height: 24px;
+    }
+    
+    .hero-element  .circle-3 {
+      top: 20%;
+      left: 57%;
+      width: 16px;
+      height: 16px;
+    }
+    
+    .hero-element  .circle-4 {
+      top: 73%;
+      left: 66%;
+      width: 80px;
+      height: 80px;
+    }
+  
+    .hero-element  .circle-5 {
+      top: 10%;
+      left: 95%;
+      width: 16px;
+      height: 16px;
     }
 
     .in-theater-body .item-container {
