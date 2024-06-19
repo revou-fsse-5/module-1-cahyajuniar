@@ -152,7 +152,6 @@ header .search-nav .search-form .btn-find {
   background-color: #F17B97;
 
   animation: circleBeat;
-  animation-delay: 1s;
   animation-duration: 6s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -165,7 +164,6 @@ header .search-nav .search-form .btn-find {
   background-color: #F5C518;
 
   animation: circleBeat;
-  animation-delay: 1s;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -178,7 +176,6 @@ header .search-nav .search-form .btn-find {
   background-color: #C73659;
 
   animation: circleBeat;
-  animation-delay: 2s;
   animation-duration: 0.7s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -192,7 +189,6 @@ header .search-nav .search-form .btn-find {
   background-color: #464646;
 
   animation: circleBeat;
-  animation-delay: 2s;
   animation-duration: 4s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -205,8 +201,8 @@ header .search-nav .search-form .btn-find {
   background-color: #6BC9F2;
 
   animation: circleBeat;
-  animation-delay: 3s;
   animation-duration: 0.7s;
+  animation-delay: 0.5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
