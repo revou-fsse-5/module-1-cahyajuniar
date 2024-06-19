@@ -26,10 +26,12 @@ h3 {
 }
 
 header {
-  position: relative;
+  position: sticky;
   border-bottom: 2px solid black;
   display: flex;
   align-items: center;
+  top: 0;
+  background-color: #FCF4E7;
 }
 
 header .header-left-session {
