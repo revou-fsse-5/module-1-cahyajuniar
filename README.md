@@ -1,5 +1,5 @@
 <div align="center">
-<img src="checkpoint/src/assets/logo.jpg" width="350px">
+<img src="./assets-readme/logo.jpg" width="350px">
 
 ### Discovering Your Desire Movies
 
@@ -14,7 +14,9 @@
 
 # Introduction
 
-Hello from Cahya, here is my website for assigment module 1. You can't see preview of the website because i haven't yet style the HTML.
+Hello from Cahya, here is my website for assigment module 1. First, you can visit my website at :
+
+[Movie Fiesta](https://moviefiestaproject.netlify.app/)
 
 
 **Movie Fiesta** is a web that contain alot information about movies. In this website you can see what films are on going in theaters, Top 10 Movies of the week and popular celebrities.
@@ -35,10 +37,33 @@ Here are features on **Movie Fiesta** :
 
 # Future Changes :
 
-- [ ] Style index.html with CSS.
-- [ ] Put more movie list to main content.
-- [ ] Make sign up form become modal when sign up link just clicked.
-- [ ] Deploy project to Netlify.
-<h2 align="center">Enjoy your movies</h2>
+- [x] Style index.html with CSS.
+- [x] Put more movie list to main content.
+- [x] Make sign up form become modal when sign up link just clicked.
+- [x] Deploy project to Netlify.
 
-![Hero Image](./checkpoint/src/assets/hero-for-readme.png)
+
+# There are Animations!!!
+
+![Animation hero](./assets-readme/animation.gif)
+
+# Responsive Layout :
+
+MovieFiesta website has applied responsive layout for different devices using @media-query with css. There are **3** __*break point*__, **Phone** (max-width: **843px**), **Tablet** (max-width: **1280px**) and **Desktop** (min-width: **1280px**).
+
+| Phone     | Phone Header | 
+| :---:       |    :----:   | 
+| <img src="./assets-readme/ss-phone-1.png" width="200px">      | <img src="./assets-readme/ss-phone-2.png" width="200px">         | 
+
+| Phone Search Menu | Tablet |
+| :---:             | :--: |
+| <img src="./assets-readme/ss-phone-1.png" width="200px"> | <img src="./assets-readme/ss-tablet-1.png" width="220px"> |
+
+| Desktop |
+| :---: |
+| <img src="./assets-readme/ss-desktop-1.png" width="300px"> |
+
+
+<h2 align="center" style="color:#6BC9F2;">Enjoy your movies</h2>
+
+![Hero Image](./assets-readme/hero-for-readme.png)
