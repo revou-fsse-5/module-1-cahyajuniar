@@ -1,5 +1,5 @@
 <div align="center">
-<img src="checkpoint/assets/logo.jpg" width="350px">
+<img src="checkpoint/src/assets/logo.jpg" width="350px">
 
 ### Discovering Your Desire Movies
 
@@ -41,4 +41,4 @@ Here are features on **Movie Fiesta** :
 - [ ] Deploy project to Netlify.
 <h2 align="center">Enjoy your movies</h2>
 
-![Hero Image](./checkpoint//assets/hero-for-readme.png)
+![Hero Image](./checkpoint/src/assets/hero-for-readme.png)
