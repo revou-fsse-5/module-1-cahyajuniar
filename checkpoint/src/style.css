@@ -487,6 +487,12 @@ header .search-nav .search-form .btn-find {
   display: flex;
   flex-direction: column;
   align-items: start;
+  color: black;
+}
+
+.form-gender #selectGender {
+  color: black;
+  background-color: white;
 }
 
 .signup-form .form-checkbox-policy {
