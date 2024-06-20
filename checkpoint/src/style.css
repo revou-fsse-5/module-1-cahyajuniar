@@ -549,10 +549,12 @@ footer .social-media-container a {
 
   header .header-right-session .search-btn > .fa-magnifying-glass {
     font-size: 1.25rem;
+    color: black;
   }
 
   header .header-right-session .burger-btn {
     margin-left: 20px;
+    color: black;
   }
     
   header .header-right-session .burger-btn > .fa-bars {
