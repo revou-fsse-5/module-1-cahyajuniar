@@ -26,7 +26,7 @@ Hello from Cahya, here is my website for assigment module 1. First, you can visi
 - **Movies** : Navigate to list of movies.
 - **TV Shows** : Navigate to list of tv shows.
 - **Watchlists** : Navigate to your watchlist.
-- **Sign Up** : You can create an account. You can go to <mark style="background-color:#F5C518;"> sign up form </mark>by click the sign up button
+- **Sign Up** : You can create an account. You can go to <mark> sign up form </mark>by click the sign up button
 
 # Main Content
 Here are features on **Movie Fiesta** :
