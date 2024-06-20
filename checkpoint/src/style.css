@@ -493,6 +493,7 @@ header .search-nav .search-form .btn-find {
 .form-gender #selectGender {
   color: black;
   background-color: white;
+  border: 1px solid black
 }
 
 .signup-form .form-checkbox-policy {
